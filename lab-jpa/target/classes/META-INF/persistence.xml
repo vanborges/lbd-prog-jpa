@@ -6,7 +6,7 @@
         <class>bean.Departamento</class>
         <class>bean.Funcionario</class>
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/pydb"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/pybd"/>
             <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
             <property name="hibernate.connection.username" value="postgres"/>
             <property name="hibernate.connection.password" value="postgres"/>

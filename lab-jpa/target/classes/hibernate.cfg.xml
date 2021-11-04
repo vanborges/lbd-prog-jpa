@@ -6,7 +6,6 @@
     <session-factory>
         <property name="connection.url">jdbc:postgresql://localhost:5432/pydb</property>
         <property name="connection.driver_class">org.postgresql.Driver</property>
-
         <!-- DB schema will be updated if needed -->
         <property name="hibernate.hbm2ddl.auto">update</property>
         <mapping class="bean.Departamento"/>
